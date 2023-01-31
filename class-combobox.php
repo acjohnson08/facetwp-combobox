@@ -50,7 +50,7 @@ class FacetWP_Facet_Combobox extends FacetWP_Facet
 		}
 		
 		$output .= '<div class="' . $class . '">';
-		$output .= '<input class="facetwp-combobox" type="hidden" name="' . $facet['name'] . '">';
+		$output .= '<input class="facetwp-combobox" type="hidden" name="' . $facet['name'] . '" value="' . esc_attr(implode(',', $selected_values)) . '">';
 		$output .= '<i class="dropdown icon"></i>';
 		$output .= '<div class="default text">' . esc_html( $facet['label_any'] ) . '</div>';
 		$output .= '<div class="menu">';
