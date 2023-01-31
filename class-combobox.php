@@ -24,7 +24,7 @@ class FacetWP_Facet_Combobox extends FacetWP_Facet
 
     // Remove empty options
     $values = array_filter($values, function($value) {
-        return !empty($value['facet_value']) && !empty($value['facet_display_value']);
+        return !empty($value['facet_display_value']);
     });
 
     return $values;
