@@ -10,8 +10,8 @@ class FacetWP_Facet_Combobox extends FacetWP_Facet
 
     if ( !is_admin() ) {
         // Enqueue Semantic UI CSS and JavaScript files
-        wp_enqueue_style( 'semantic-ui-css', 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css', array(), '2.4.1' );
-        wp_enqueue_script( 'semantic-ui-js', 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js', array('jquery'), '2.4.1', true );
+        wp_enqueue_style( 'semantic-ui-css', 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css', array(), '2.5.0' );
+        wp_enqueue_script( 'semantic-ui-js', 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js', array('jquery'), '2.5.0', true );
     }
 }
 
