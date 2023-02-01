@@ -18,6 +18,6 @@
 
 (function($) {
     $(document).on('facetwp-loaded', function() {
-		$('.ui.dropdown').dropdown({forceSelection: false});
+		$('.ui.dropdown').dropdown({forceSelection: false, clearable: true});
     });
 })(jQuery);
