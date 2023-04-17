@@ -21,7 +21,7 @@
 		$('.ui.dropdown').dropdown( {
 			forceSelection: false,
 			clearable: true,
-			fullTextSearch: true
+			fullTextSearch: 'exact'
 		} );
 	});
 })(jQuery);
