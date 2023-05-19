@@ -16,10 +16,10 @@ This WordPress plugin introduces a new combobox facet type for [FacetWP](https:/
 3. Activate the plugin through the 'Plugins' menu in WordPress
 
 ## Usage
-1. After activation, the combobox facet type will be available in the FacetWP settings
-2. Create a new facet and choose 'Combobox' from the facet type dropdown
-3. Configure the facet settings as per your requirements
-4. Place the facet shortcode where you want it to appear on your website
+1. After activation, the combobox facet type will be available in the FacetWP settings.
+2. Create a new facet and choose 'Combobox' from the facet type dropdown.
+3. Configure the facet settings according to your requirements.
+4. Place the facet shortcode where you want it to appear on your website.
 
 ## Contributing
 Contributions are welcome and greatly appreciated. If you found a bug, have questions, or wish to propose new features, feel free to open an issue or submit a pull request.
